@@ -25,7 +25,8 @@ import NoInterpsMessage from '../common/NoInterpsMessage'
 import Sleep from './Sleep'
 
 import BasicSpace from './BasicSpace'
-import { EventEmitter } from 'eventemitter3'
+import eventEmitter from 'eventemitter3';
+const { EventEmitter } = eventEmitter;
 import Channel from './Channel'
 
 //const Components = require('./Components')
